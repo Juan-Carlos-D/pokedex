@@ -173,3 +173,15 @@ button {
 button:hover {
     background-color: #383838;
 }
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+   .main-container{
+    width: 380px;
+   }
+
+   .description-container {
+    width: 280px;
+    height: 370px;
+   }
+  }
