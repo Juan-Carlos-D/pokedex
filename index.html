@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeDex</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="main-container" id="main-container">
+        <div class="dropdown-container" id="dropdown-container">
+            <select name="pokemon-list" id="pokemon-list"></select>
+            <span class="dropdown_arrow"></span>
+        </div>
+
+        <div class="sprite-container">
+            <span id="shiny-button" class="shiny-button">
+                <img src="./Assets/stars.png" alt="shiny icon" class="star-svg" />
+            </span>
+            <img id="sprite-image" src="Assets/1.png" alt="sprite" />
+        </div>
+
+        <div class="description-container">
+            <h1 class="name" id="name">#1 Bulbasaur</h1>
+            <div class="type-container" id="type-container">
+                <span class="type grass">Grass</span>
+                <span class="type poison">Poison</span>
+            </div>
+            <p class="text" id="dex-entry">
+                A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon.
+            </p>
+            <h3>Base Stats</h3>
+            <div class="stats-container">
+                <span id="HP">HP: 45</span>
+                <span id="ATK">ATK: 49</span>
+                <span id="DEF">DEF: 49</span>
+                <span id="SP-ATK">SP ATK: 65</span>
+                <span id="SP-DEF">SP DEF: 65</span>
+                <span id="SPE">SPE: 45</span>
+            </div>
+        </div>
+        <span>
+            <button id="previous">Previous</button>
+            <button id="next">Next</button>
+        </span>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
