@@ -184,4 +184,8 @@ button:hover {
     width: 280px;
     height: 370px;
    }
+
+    #pokemon-list {
+    color: black;
+}
   }
